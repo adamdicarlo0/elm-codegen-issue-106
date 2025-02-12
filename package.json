@@ -1,0 +1,10 @@
+{
+  "name": "elm-codegen-missing-dict-import",
+  "scripts": {
+    "test": "elm-codegen run && echo; echo '# generated/MissingImport.elm:'; cat generated/MissingImport.elm; echo; echo; echo '# generated/Workaround.elm:'; cat generated/Workaround.elm; echo"
+  },
+  "dependencies": {
+    "elm": "^0.19.1-6",
+    "elm-codegen": "^0.6.1"
+  }
+}
